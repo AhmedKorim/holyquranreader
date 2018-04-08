@@ -1,0 +1,56 @@
+body {
+  direction: rtl;
+  font-family: 'Cairo', sans-serif;
+  background-color: #001a00;
+  color: #e6ffe6;
+}
+
+.soura-body {
+  text-align: right;
+}
+
+#souraname {
+  font-size: 35px;
+}
+
+.aya {
+  position: relative;
+  overflow: hidden;
+  /* this prevents the grey divs from overflowing */
+  vertical-align: top;
+  display: block;
+  text-align: justify;
+}
+.aya .bacgroundProgress {
+  height: 100%;
+  width: 0;
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #b200b2;
+}
+.aya:first-of-type {
+  display: block;
+  text-align: center;
+}
+.aya:first-of-type .aya-text {
+  font-size: 30px;
+}
+.aya .aya-text {
+  font-size: 25px;
+  position: relative;
+  z-index: 5;
+  cursor: pointer;
+  padding: 20px 3px;
+  display: inline-block;
+}
+.aya .aya-text .aya-index {
+  background: url("../images/aya-index.png") center center no-repeat;
+  display: inline-block;
+  background-size: 28px;
+  width: 30px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
