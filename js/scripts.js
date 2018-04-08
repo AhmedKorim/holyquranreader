@@ -7,7 +7,7 @@
 class quran {
     async data(number) {
         if (number >= 1 && number <= 114) {
-            const data = await fetch(`http://api.alquran.cloud/surah/${number}/ar.alafasy`);
+            const data = await fetch(`https://api.alquran.cloud/surah/${number}/ar.alafasy`);
             const getData = await data.json();
             const ayat =await getData.data.ayahs
             const souraName =await getData.data.name
