@@ -16,7 +16,6 @@ body {
 .aya {
   position: relative;
   overflow: hidden;
-  /* this prevents the grey divs from overflowing */
   vertical-align: top;
   display: block;
   text-align: justify;
@@ -28,6 +27,7 @@ body {
   position: absolute;
   right: 0;
   bottom: 0;
+  transition: all .1s ease-in-out;
   background-color: #b200b2;
 }
 .aya:first-of-type {
@@ -52,5 +52,3 @@ body {
   width: 30px;
   text-align: center;
 }
-
-/*# sourceMappingURL=styles.css.map */
