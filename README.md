@@ -1,4 +1,4 @@
-# holdy quranreader
+# holy quran reader
 
 type the soura number and click fetch
 
